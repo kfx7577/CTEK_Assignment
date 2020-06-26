@@ -1,0 +1,10 @@
+Correction made:
+- Replaced integers a and b into dynamic integer arrays; a and b, both with size N + 1
+- Separated calc_min_cap function into two steps:
+	1) Extract vector of pairs into dynamic arrays a and b
+	2) Run calculation of number of passengers with extracted a and b,
+	   computing minimum capacity of bus
+- Ensure that the index i, representing the i-th stop, starts from 1 to N
+
+where
+N = Size of the vector of pairs.
